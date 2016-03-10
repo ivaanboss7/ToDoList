@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 if (itemToAdd.length() > 0) {
                     items.add(itemToAdd);
                     refreshList();
-                }else {
+                } else {
                     Toast.makeText(MainActivity.this, "Add item!", Toast.LENGTH_SHORT).show();
                     etAddItems.requestFocus();
                 }
